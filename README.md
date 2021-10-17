@@ -17,7 +17,7 @@ If you are running on localhost, you can use a dockerized database:
 
 After configuring the database and creating the docker image you can run the command: `yarn typeorm migration: run` to create the tables.
 
-If you don't have Docker on your machine, you can follow the step-by-step instructions in the (DOCUMENTATION)[https://docs.docker.com/]
+If you don't have Docker on your machine, you can follow the step-by-step instructions in the [DOCUMENTATION](https://docs.docker.com/)
 
 
 ## Running the Project
