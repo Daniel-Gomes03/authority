@@ -6,17 +6,48 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typeorm": "ts-node --transpile-only ./node_modules/typeorm/cli.js"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
+    "axios": "^0.22.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "env-var": "^7.0.1",
     "next": "11.1.2",
+    "nookies": "^2.5.2",
+    "pg": "^8.7.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.17.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.38"
   },
   "devDependencies": {
-    "@types/react": "17.0.27",
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-decorators": "7.14.5",
+    "@types/axios": "^0.14.0",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cookie": "^0.4.1",
+    "@types/node": "^16.10.2",
+    "@types/react": "^17.0.27",
+    "@types/uuid": "^8.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "autoprefixer": "^10.3.7",
+    "babel-plugin-transform-typescript-metadata": "^0.3.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.3.9",
+    "prettier": "^2.3.2",
+    "tailwindcss": "^2.2.16",
+    "ts-node": "^10.2.1",
     "typescript": "4.4.3"
   }
 }
