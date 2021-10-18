@@ -48,7 +48,7 @@ POST `http://localhost:3000/api/users/signIn`
 
 ```
 {
-  "email": "jhondoe@email.com",
+  "email": "daniel@email.com",
   "password": "12345678"
 }
 ```
